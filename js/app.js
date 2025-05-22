@@ -6,7 +6,7 @@ let tracks = [];
 console.log('App JS loaded');
 
 // Fetch and render playlist
-fetch('https://musikai.coltonscottt.workers.dev/')
+fetch('https://musikai.coltonscottt.workers.dev/musikai')
   .then(res => res.json())
   .then(data => {
     tracks = data;
