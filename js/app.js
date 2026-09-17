@@ -6,7 +6,7 @@ let tracks = [];
 console.log('App JS loaded');
 
 // Fetch and render playlist
-fetch('https://hollowdash.github.io/musikai/assets/data/playlist.json')
+fetch('put-your-url-here')
   .then(res => res.json())
   .then(data => {
     tracks = data;
