@@ -6,7 +6,7 @@ let tracks = [];
 console.log('App JS loaded');
 
 // Fetch and render playlist
-fetch('put-your-url-here')
+fetch('put-your-url-here') // json data not the other shit
   .then(res => res.json())
   .then(data => {
     tracks = data;
